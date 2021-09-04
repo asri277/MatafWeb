@@ -1,0 +1,200 @@
+html{
+  scroll-behavior: smooth;
+}
+
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+body{
+  background-image: url("../img/pusat.png") ;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.pengenalan_sijil_img{
+  margin-top: 12%;
+  margin-left: 10%;
+  margin-bottom: 3%;
+  border: 1px solid #CCFFCC;
+  box-shadow: 0px 3px 3px #404040;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.pengenalan_info_text{
+  display: block;
+  border: 1px solid #CCFFCC;
+  box-shadow: 0px 3px 3px #404040;
+  background-color: rgba(255,255,255,0.9);
+
+  width: 40%;
+  padding: 2%;
+  float: right;
+  margin-right: 9%;
+  margin-top: 12.1%;
+}
+
+.pengenalan_info_text .pengenalan_header_text{
+  font-family: verdana;
+  font-size: 200%;
+}
+
+.pengenalan_info_text .pengenalan_text{
+  text-align: justify;
+  font-family: verdana;
+  font-size: 100%;
+}
+/* -------------------------------------------------------------------------- */
+
+.pengenalan_sejarah_text{
+  display: block;
+  border: 1px solid #CCFFCC;
+  box-shadow: 0px 3px 3px #404040;
+  background-color: rgba(255,255,255,0.9);
+
+  width: 27.5%;
+  padding: 2%;
+  margin-left: 10%;
+  margin-top: 0%;
+  margin-bottom: 3%;
+}
+
+.pengenalan_sejarah_text .pengenalan_header_text{
+  font-family: verdana;
+  font-size: 200%;
+}
+
+.pengenalan_sejarah_text .pengenalan_text{
+  text-align: justify;
+  font-family: verdana;
+  font-size: 100%;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.pengenalan_tahfiz_img{
+  position: absolute;
+  border: 1px solid #CCFFCC;
+  box-shadow: 0px 3px 3px #404040;
+  width: 44%;
+  height: auto;
+  margin-left: 46.8%;
+  margin-top: -49%;
+  z-index: -1;
+}
+
+.pengenalan_kaabah_img{
+  border: 1px solid #CCFFCC;
+  box-shadow: 0px 3px 3px #404040;
+  width: 34%;
+  height: auto;
+  margin-left: 10%;
+  margin-top: 0%;
+  margin-bottom: 10%;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.pengenalan_sokongan_text{
+  display: absolute;
+  z-index: -1;
+  border: 1px solid #CCFFCC;
+  box-shadow: 0px 3px 3px #404040;
+  background-color: rgba(255,255,255,0.9);
+
+  width: 40%;
+  padding: 2%;
+  margin-left: 47%;
+  margin-top: -36%;
+  margin-bottom: 3%;
+}
+
+.pengenalan_sokongan_text .pengenalan_header_text{
+  font-family: verdana;
+  font-size: 200%;
+}
+
+.pengenalan_sokongan_text .pengenalan_text{
+  text-align: justify;
+  font-family: verdana;
+  font-size: 100%;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.pengenalan_sujud_img{
+  position: absolute;
+  float: right;
+  border: 1px solid #CCFFCC;
+  box-shadow: 0px 3px 3px #404040;
+  width: 44%;
+  height: auto;
+  margin-left: 2.8%;
+  margin-top: -16%;
+  margin-bottom: 12%;
+  z-index: -1;
+}
+
+/* -------------------------------------------------------------------------- */
+
+.pengenalan_matlamat_text{
+  display: absolute;
+  z-index: -1;
+  border: 1px solid #CCFFCC;
+  box-shadow: 0px 3px 3px #404040;
+  background-color: rgba(255,255,255,0.9);
+
+  width: 77%;
+  padding: 2%;
+  margin-left: 10%;
+  margin-top: 0%;
+  margin-bottom: 3%;
+}
+
+.pengenalan_matlamat_text .pengenalan_header_text{
+  font-family: verdana;
+  font-size: 200%;
+}
+
+.pengenalan_matlamat_text .pengenalan_text{
+  text-align: justify;
+  font-family: verdana;
+  font-size: 100%;
+}
+
+/* -------------------------------------------------------------------------- */
+.wrapper_footer{
+  margin-top: auto;
+}
+
+.wrapper_footer .copyright_text{
+  text-align: center;
+  padding: 2%;
+  font-size: 90%;
+  background-color: #CCFFCC;
+}
+
+.wrapper_footer .footer_link .logo_link{
+  width: 4%;
+  height: 4%;
+  margin-left: 43%;
+  margin-right: 1%;
+  border: 1px solid #000000;
+}
+
+.wrapper_footer .footer_link i{
+  font-size: 310%;
+  margin-right: 1%;
+  color: #000000;
+  padding-bottom: 1%;
+  transition: 0.3s;
+}
+
+.wrapper_footer .footer_link i:hover{
+  color: #99FF99;
+}
